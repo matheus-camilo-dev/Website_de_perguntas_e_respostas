@@ -1,8 +1,8 @@
 const Sequelize = require("sequelize");
 
 // Criar nova conexão
-const connection = new Sequelize('guiaperguntas', 'root', 'root123', {
-    host: 'localhost',
+const connection = new Sequelize('SEU DATABASE', 'SEU USUARIO DO DB', 'SUA SENHA DO DB', {
+    host: 'SEU HOST',
     dialect: 'mysql'
 });
 
